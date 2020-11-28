@@ -7,6 +7,17 @@ html {
     background-color: #90E0EF;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Arial, Helvetica, sans-serif;
     font-size: 100%;
+}
+header{
+    height: 10%;
+}
+section #quiz{
+    color: #DB6400;
+    height: 45%;
+}
+section #PrintOut{
+    color: #16697A;
+    height: 45%;
 }
