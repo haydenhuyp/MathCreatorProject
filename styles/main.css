@@ -13,11 +13,20 @@ body {
 header{
     height: 10%;
 }
-section #quiz{
-    background-color: #DB6400;
-    height: 45%;
+main{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        "quiz"
+        "printout"
+        "more";
 }
-section #PrintOut{
+#quiz{
+    background-color: #DB6400;
+    grid-area: quiz;
+}
+#PrintOut{
     background-color: #16697A;
-    height: 45%;
+    grid-area: printout;
 }
