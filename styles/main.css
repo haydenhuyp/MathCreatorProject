@@ -14,10 +14,10 @@ header{
     height: 10%;
 }
 section #quiz{
-    color: #DB6400;
+    background-color: #DB6400;
     height: 45%;
 }
 section #PrintOut{
-    color: #16697A;
+    background-color: #16697A;
     height: 45%;
 }
