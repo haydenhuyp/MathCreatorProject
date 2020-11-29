@@ -12,11 +12,15 @@ body {
     height: 100%;
 }
 header{
-    height: 10%;
+    height: 15%;
 }
-header ul{
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
     list-style-type: none;
-    display: inline;
 }
 main{
     display: grid;
