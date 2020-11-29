@@ -16,7 +16,7 @@ header{
 main{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 40%);
     grid-template-areas: 
         "quiz"
         "printout"
@@ -29,4 +29,7 @@ main{
 #PrintOut{
     background-color: #16697A;
     grid-area: printout;
+}
+footer{
+    height: 10%;
 }
