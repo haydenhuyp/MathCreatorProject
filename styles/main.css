@@ -1,0 +1,38 @@
+html{
+    width: 100vw;
+}
+#title{
+    float: left;
+}
+#nav_menu{
+    float: left;
+    right: 0;
+}
+#nav_menu ul{
+    list-style-type: none;
+    
+}
+#nav_menu ul li{
+    display: inline;
+}
+main{
+    clear: both;
+}
+.line{
+	border-bottom:1px solid #416371;
+    width: 200px;
+    margin: 20px auto;
+}
+footer p{
+    text-align: center;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    display: inline;
+}
+footer img{
+    width: 35px;
+    height: 35px;
+}
