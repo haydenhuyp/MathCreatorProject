@@ -41,16 +41,17 @@ header{
 }
 #nav_menu ul li{
     display: inline;
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+}
+#nav_menu #flag{
+    vertical-align: middle;
 }
 main{
     clear: both;
 }
 main #section1, main #section2{
     height: 75vh;
-    width: 100%;
-    border: 2px solid orange;
+    border: 1px solid orange;
 }
 main a{
     text-decoration: none;
@@ -59,26 +60,33 @@ main h3{
     font-weight: bold;
     font-size: xx-large;
     text-align: right;
+    display: block;
+    margin: 370px 30px 0 30px;
 }
 .line{
 	border-bottom:1px solid #416371;
-    width: 200px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
-footer:first-child{
-    padding-top: 20px;
+footer #contact{
+    text-align: center;
 }
 footer p{
     text-align: center;
     font-weight: bold;
+    margin: 10px auto;
 }
 footer ul{
     list-style-type: none;
 }
 footer ul li{
     display: inline;
+    padding: 0 5px;
 }
 footer img{
     width: 35px;
+    height: 35px;
+}
+#flag{
+    width: 47px;
     height: 35px;
 }
