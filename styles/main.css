@@ -8,9 +8,6 @@ html{
 body{
     font-family: 'Open Sans', Arial, sans-serif;
 }
-header{
-    
-}
 #title{
     float: left;
 }
@@ -24,29 +21,33 @@ header{
 }
 #nav_menu{
     float: left;
-    margin: 60px 0 30px 400px;
-
     padding-bottom: 70px;
+    right: 30px;
+    position: absolute;
+    top: 60px;
 }
 #nav_menu a{
     text-decoration: none;
     font-size: large;
     font-weight: bold;
 }
-#nav_menu a:hover{
+#nav_menu a:hover, #nav_menu a:focus {
     border: 2px solid orange;
+}
+#nav_menu a #flag :hover, #nav_menu a #flag :focus{
+    border: 1px solid black;
 }
 #nav_menu ul{
     list-style-type: none;
 }
 #nav_menu ul li{
     display: inline;
-    padding: 10px;
+    padding: 5px;
 }
 #nav_menu #flag{
     vertical-align: middle;
 }
-main{
+#nav_menu{
     clear: both;
 }
 main #section1, main #section2{
@@ -65,7 +66,7 @@ main h3{
 }
 .line{
 	border-bottom:1px solid #416371;
-    margin: 0 auto;
+    margin: 0 500px;
 }
 footer #contact{
     text-align: center;
@@ -88,5 +89,9 @@ footer img{
 }
 #flag{
     width: 47px;
+    height: 35px;
+}
+i{
+    width: 35px;
     height: 35px;
 }
