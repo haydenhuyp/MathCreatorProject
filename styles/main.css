@@ -47,34 +47,73 @@ header{
 }
 #nav_menu #flag{
     vertical-align: middle;
+    height: 30px;
+    width: auto;
 }
 main #section1, main #section2{
-    height: 620px;
+    height: 570px;
     width: 100%;
+    filter: saturate(0.5);
+    float: none;
 }
 main #section1
 {
     background-color: #da4944;
-    /*background-image: url(../images/section1.png);*/
     clear: both;
 }
 main #section2{
-    background-color: #faca5d;
-    /*background-image: url(../images/section2.png);*/
+    background-color: #1b3679;
+}
+main #section1:hover, main #section2:hover{
+    filter: none;
+}
+main section h3:hover, main section h3:focus{
+    cursor: pointer;
+    border: 5px solid #353537;
+}
+main section h3 a:hover, main section h3 a:focus{
+    color: #353537;
+}
+main img{
+    width: 1028px;
+    height: 570px;
+    float: left;
+    padding-left: 30px;
 }
 main a{
     text-decoration: none;
 }
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 main h3{
     font-weight: bold;
-    font-size: xx-large;
     text-align: right;
     display: block;
     font-family: 'Quicksand', sans-serif;
+
+    float: left;
+    background-color: #fffbef;
+
+    position: absolute;
+    bottom: 150px;
+    right: 16px;
+    padding: 9px 20px 10px 40px;
+    border: 5px solid #f8cc48;
+    border-radius: 10px 0px 10px 0px;
+    font-size: 45px;
 }
 .line{
 	border-bottom:1px solid #416371;
     margin: 0 500px;
+}
+footer{
+    background-color: #f8f1f1;
+    color: #db6400;
+    font-weight: bold;
+    margin-top: 9px;
 }
 footer #contact{
     text-align: center;
@@ -82,7 +121,9 @@ footer #contact{
 footer p{
     text-align: center;
     font-weight: bold;
-    margin: 10px auto;
+    margin: 9px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
 }
 footer ul{
     list-style-type: none;
@@ -92,14 +133,6 @@ footer ul li{
     padding: 0 5px;
 }
 footer img{
-    width: 35px;
-    height: 35px;
-}
-#flag{
-    width: 47px;
-    height: 35px;
-}
-i{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
