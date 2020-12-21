@@ -8,16 +8,20 @@ html{
 body{
     font-family: 'Open Sans', Arial, sans-serif;
 }
+header{
+    height: fit-content;
+}
 #title{
     float: left;
 }
 #title h1{
     margin: 30px 30px 20px 30px;
-    font-size: xx-large;
+    font-size: 40px;
 }
 #title h2{
     margin-left: 30px;
-    font-size: x-large;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 #nav_menu{
     float: left;
@@ -34,9 +38,6 @@ body{
 #nav_menu a:hover, #nav_menu a:focus {
     border: 2px solid orange;
 }
-#nav_menu a #flag :hover, #nav_menu a #flag :focus{
-    border: 1px solid black;
-}
 #nav_menu ul{
     list-style-type: none;
 }
@@ -47,12 +48,19 @@ body{
 #nav_menu #flag{
     vertical-align: middle;
 }
-#nav_menu{
+main #section1, main #section2{
+    height: 620px;
+    width: 100%;
+}
+main #section1
+{
+    background-color: #da4944;
+    /*background-image: url(../images/section1.png);*/
     clear: both;
 }
-main #section1, main #section2{
-    height: 75vh;
-    border: 1px solid orange;
+main #section2{
+    background-color: #faca5d;
+    /*background-image: url(../images/section2.png);*/
 }
 main a{
     text-decoration: none;
@@ -62,7 +70,7 @@ main h3{
     font-size: xx-large;
     text-align: right;
     display: block;
-    margin: 370px 30px 0 30px;
+    font-family: 'Quicksand', sans-serif;
 }
 .line{
 	border-bottom:1px solid #416371;
