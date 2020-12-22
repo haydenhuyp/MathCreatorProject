@@ -1,0 +1,44 @@
+main{
+    float: none;
+    clear: both;
+    padding: 3%;
+    background-color: #FBFBFF;
+}
+main h3{
+    padding: 0 1% 0.5% 0;
+    border-bottom: 3px solid rgb(207, 138, 9);
+    width: max-content;
+    font-size: x-large;
+}
+main ul{
+    list-style-type: none;
+}
+main a{
+    text-decoration: none;
+}
+.box{
+    padding: 1%;
+    border: 3px solid #0b4f6c;
+    width: max-content;
+    min-width: 120px;
+    margin: 1%;
+    font-weight: bold;
+    font-size: large;
+}
+main .box:hover{
+    border: 3px solid #20bf55;
+}
+main .box:hover a{
+    color: rgb(230, 53, 53);
+    font-size: larger;
+}
+
+#home a{
+    font-size: larger;
+    color: #e63946;
+}
+#home img{
+    width: 6%;
+    height: auto;
+    margin-right: 4%;
+}
