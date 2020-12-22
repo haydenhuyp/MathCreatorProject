@@ -42,3 +42,7 @@ main .box:hover a{
     height: auto;
     margin-right: 4%;
 }
+#download {
+    width: 20%;
+    height: auto;
+}
