@@ -9,7 +9,7 @@ main img{
     max-width: 600px;
     max-height: 600px;
 }
-main h3{
+main h3, main a{
     padding: 2% auto;
     text-align: center;
 }
