@@ -1,0 +1,47 @@
+main {
+    float: none;
+    clear: both;
+}
+main img{
+    width: 20%;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    padding-left: 2%;
+}
+article{
+    padding: 2%;
+}
+article h2{
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    font-size: xx-large;
+    padding-right: 4%;
+    border-bottom: 4px solid orange;
+    width: max-content;
+}
+article p{
+    margin: 1%;
+    font-size: large;
+}
+main h3{
+    text-align: center;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    padding: 0.5%;
+}
+#contactinfo{
+    padding-left: 5%;
+}
+h4{
+    padding-top: 2%;
+    font-size: larger;
+    color: darkred;
+    font-weight: bold;
+}
+h5{
+    padding: 1%;
+    font-weight: bold;
+    font-size: large;
+}
